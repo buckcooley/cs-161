@@ -1,1 +1,32 @@
+# part 1 pet info
+pet_type = "cat"
+pet_name = "Micah"
+print(f"I have a {pet_type} and his name is {pet_name}")
+
+
+# part 2 user input
+first_name = input("Enter your first name: ")
+age = int(input("Enter your age: "))
+yearly_saving = int(input("Enter your yearly savings: "))
+future_age = age + 10
+five_year_savings = yearly_saving * 5
+monthly_savings = yearly_saving / 12
+print(f"\nHello {first_name}! you are currently {age} years old.")
+print(f"In 10 years, you will be {future_age} years old.")
+print(f"If you save ${yearly_saving} each year, in 5 years you will have {five_year_savings}")
+print(f"Your average monthly savings is ${monthly_savings:.2f}.")
+
+
+# part 3 seconds
+days_in_January = 31
+seconds_in_day = 24 * 60 * 60
+seconds_in_January = days_in_January * seconds_in_day
+print(f"The number of seconds in January is {seconds_in_January}")
+
+
+#part 4 eggs
+eggs = int(input("Enter the number of eggs: "))
+dozens = eggs // 12
+remaining = eggs % 12
+print(f" This makes {dozens} dozen eggs with {remaining} left over")
 
